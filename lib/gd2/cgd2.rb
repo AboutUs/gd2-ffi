@@ -10,6 +10,9 @@ module CGD2
   attach_function :gdImageCreate, [:int, :int], :pointer
   attach_function :gdImageCreateTrueColor, [:int, :int], :pointer
   
+  # int gdImageColorAllocate(gdImagePtr im, int r, int g, int b) (FUNCTION)
+  attach_function :gdImageColorAllocate, [:pointer, :int, :int, :int], :int
+  
   # void gdImageFilledRectangle(gdImagePtr im, int x1, int y1, int x2, int y2, int color) (FUNCTION)
   attach_function :gdImageFilledRectangle, [:pointer, :int, :int, :int, :int, :int], :void
   
