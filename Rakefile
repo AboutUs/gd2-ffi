@@ -10,6 +10,7 @@ begin
     gem.email = "patrik.stenmark@gmail.com"
     gem.homepage = "http://github.com/spatrik/gd2-ffi"
     gem.authors = ["Patrik Stenmark"]
+    gem.version = "0.0.3.1"
     # gem is a Gem::Specification... see http://www.rubygems.org/read/chapter/20 for additional settings
   end
 

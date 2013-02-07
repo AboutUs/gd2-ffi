@@ -1,9 +1,6 @@
 source 'http://rubygems.org'
 
 gem 'ffi'
-
-group :development, :test do
-  gem 'jeweler'
-  gem 'rake'
-  gem 'rspec'
-end
+gem 'jeweler', :group => :development
+gem 'rake', :group => [:development, :test]
+gem 'rspec', :group => :test
