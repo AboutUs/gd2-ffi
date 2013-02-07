@@ -1,6 +1,6 @@
 require 'rubygems'
 require 'rbconfig'
-require 'spec'
+require 'rspec'
 
 $: << 'lib'
 require 'gd2-ffi'
